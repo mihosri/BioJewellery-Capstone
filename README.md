@@ -6,9 +6,9 @@ The web application serves as an online jewelry store, providing customers with 
 
 ✨**Key Features**
 
-  Seamless e-commerce functionality for easy product selection and checkout.
-  Customer service options including feedback submission and return requests.
-  Inventory management and efficient handling of returns and feedback on the client side.
+ - Seamless e-commerce functionality for easy product selection and checkout.
+ - Customer service options including feedback submission and return requests.
+ - Inventory management and efficient handling of returns and feedback on the client side.
 
 Our goal was to support the expansion of the client's jewelry business by providing more avenues for customers to access their merchandise.
 
