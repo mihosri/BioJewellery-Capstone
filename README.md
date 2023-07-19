@@ -21,12 +21,12 @@ Our goal was to support the expansion of the client's jewelry business by provid
   - CSS
   - JavascriptXML
 
-# API architecture
+# 🏛API architecture
   - REST architectural style
 
-# Thrid party API services utilized
+# 🤝Thrid party API services utilized
   - Cloudinary: For media storage
   - Stripe: For handling payment
 
-# Website
+# 🔗Website
 Feel free to check out **our website** here 👉 https://biojewelry.onrender.com/
