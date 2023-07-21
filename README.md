@@ -29,4 +29,4 @@ Our goal was to support the expansion of the client's jewelry business by provid
   - Stripe: For handling payment
 
 # 🔗Website
-Feel free to check out **our website** here 👉 https://biojewelry.onrender.com/
+Feel free to check out **our website** here 👉 https://biojewelry.onrender.com/ (Experience a slight delay as this website is hosted on a free platform – but rest assured, you won't believe what's in store!)
