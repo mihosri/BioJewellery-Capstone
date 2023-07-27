@@ -1,4 +1,4 @@
-# 💎BioJewellery
+# 💎BioJewelry
   
 BioJewellery offers eco-friendly jewelry made from natural products. This project, undertaken by the Argonauts team as our capstone project, is an end-to-end e-commerce web application built using the MERN stack.
 
