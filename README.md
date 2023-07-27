@@ -1,6 +1,6 @@
 # 💎BioJewellery
   
-BioJewellery is a Calgary-based startup that offers eco-friendly jewelry made from natural products. This project, undertaken by the Argonauts team as our capstone project, is an end-to-end e-commerce web application built using the MERN stack.
+BioJewellery offers eco-friendly jewelry made from natural products. This project, undertaken by the Argonauts team as our capstone project, is an end-to-end e-commerce web application built using the MERN stack.
 
 The web application serves as an online jewelry store, providing customers with the ability to browse and purchase multiple products based on their preferences. It prioritizes user-friendliness and efficient navigation to enhance the overall shopping experience.
 
