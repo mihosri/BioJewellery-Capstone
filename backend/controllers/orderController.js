@@ -129,6 +129,5 @@ module.exports = {
     createOrder,
     updateOrder,
     cancelOrder,
-    getOrder,
-    
+    getOrder    
 }

@@ -8,7 +8,4 @@ router.route('/:name').get(getReview)
 router.route('/:reviewId').put(protect, respondToReview)
 router.route('/delete/:reviewId').put(protect, deleteReview);
 
-
-
-
 module.exports = router;

@@ -12,7 +12,6 @@ const Account = () => {
     const dispatch = useDispatch()
     const { user, isSuccess, isError, message } = useSelector((state) => state.auth)
 
-
     const [formData, setFormData] = useState({
         email: user.email,
         name: user.user.name,
@@ -34,7 +33,6 @@ const Account = () => {
         }))
     }
 
-
     const handleSubmit = (e) => {
         e.preventDefault();
         dispatch(updateAccount(formData));
@@ -45,7 +43,6 @@ const Account = () => {
     const handlePasswordChange = (e) => {
 
     }
-
 
     const [selectedCategory, setSelectedCategory] = useState("Products");
 
@@ -61,8 +58,7 @@ const Account = () => {
                 draggable: true,
                 progress: undefined,
                 theme: "light",
-            });
-            
+            });            
         }
     
         if (isSuccess) {
@@ -96,14 +92,11 @@ const Account = () => {
                         <form onSubmit={handleSubmit}>
                             <ToastContainer />
 
-                            <div className="account__table">
-                               
-
+                            <div className="account__table">                           
                                 <div className="account__table-column1">
                                     <h1 className='account__header'>
                                         Personal Information
                                     </h1>
-
 
                                     <h3>Name</h3>
                                     <br />
@@ -118,7 +111,6 @@ const Account = () => {
                                             onChange={changeHandler}
                                         />
                                     </div>
-
 
                                     <h3>Street address</h3>
                                     <br />
@@ -196,7 +188,6 @@ const Account = () => {
                                     </div>
                                 </div>
                             </div>
-
 
                             <div className="account__action">
                                 <button

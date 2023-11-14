@@ -2,7 +2,6 @@
 // Version 1.o
 // Date: 25/1/2023
 
-
 // Description: Contains the navbar and footer, and routing 
 // Precondition: A home page with required containers and functional carousel
 // Postcondition: Home page with a scrollable carousel

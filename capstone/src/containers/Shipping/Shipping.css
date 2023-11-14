@@ -168,8 +168,6 @@
     cursor: pointer;
 }
 
-
-
 @media screen and (max-width: 430px) {
     .order__pt1 {
         flex-direction: column;

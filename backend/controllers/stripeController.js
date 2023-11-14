@@ -189,7 +189,6 @@ const updateProductPriceInStripe = asyncHandler(async (req, res, next) => {
         next();
     }
     
-
     } 
     catch (error) {
         console.error(error);

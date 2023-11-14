@@ -11,8 +11,6 @@
 
 // Notes: large gap between profile and text
 
-
-
 import React from 'react';
 
 import { CgProfile } from "react-icons/cg";

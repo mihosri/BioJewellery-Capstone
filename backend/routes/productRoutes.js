@@ -8,9 +8,7 @@ const { createProductInStripe, updateProductPriceInStripe } = require('../contro
 
 router.route('/allAvailable').get(getAllByAvailableProducts)
 router.route('/all').get(getAllProducts)
-
 router.route('/sort/:sortType').get(sortProducts)
-
 router.route('/:name').get(upload.none(), getProduct);
 router.route('/').post( upload.single('image'), createProductInStripe, setProduct);
 router.route('/').put( upload.single('image'), updateProductPriceInStripe, updateProduct );

@@ -76,8 +76,7 @@ function ResetConfirm() {
             }
           
             dispatch(resetPassword(userData))
-        }
-    
+        }    
         
       }
 

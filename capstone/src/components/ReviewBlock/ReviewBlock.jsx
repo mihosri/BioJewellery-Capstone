@@ -98,7 +98,6 @@ const ReviewBlock = ({ review }) => {
                 </div>
             }
 
-
             {review.reply !== "false" &&
                 <div>
                     <h4 className='review__header-title'>

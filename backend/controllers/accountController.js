@@ -309,14 +309,9 @@ if(street){
     }
   })
 
-  
-
   res.status(200).json({ message: 'Account Updated' });
 
 })
-
-
-
 
 const generateToken = (id) => {
   return jwt.sign({ id }, process.env.JWT_SECRET, {

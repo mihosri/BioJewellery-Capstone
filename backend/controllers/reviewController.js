@@ -28,7 +28,6 @@ const getReview = asyncHandler(async (req, res) => {
 
 })
 
-
 // @desc    Get order
 // @route   GET /api/order/:orderId
 // @access  Private
@@ -213,8 +212,6 @@ const deleteReview = asyncHandler(async (req, res) => {
         res.status(400)
         throw new Error('Not authorized to delete this review')
     }
-
-
     //set the review fields to the new values or by default the existing value
     review.isActive = false ?? review.isActive
 

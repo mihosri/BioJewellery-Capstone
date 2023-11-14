@@ -219,10 +219,6 @@ input[type=text]:focus {
     color: var(--color-golden);
 }
 
-
-
-
-
 @media screen and (min-width: 2000px) {
     .navbar-logo img {
         width: 210px;

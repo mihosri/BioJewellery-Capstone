@@ -4,8 +4,6 @@ const {
   returnRequest
 } = require('../controllers/returnController')
 
-
 router.post('/', returnRequest)
-
 
 module.exports = router

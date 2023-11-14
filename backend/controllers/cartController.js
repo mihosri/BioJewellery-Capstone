@@ -100,7 +100,6 @@ const decreaseItemQuantity = asyncHandler(async (req, res) => {
         throw new Error('Sorry, Product no longer available');
     }
 
-
     res.status(200).json({productName,newQuantity});
 
 })

@@ -23,7 +23,6 @@ const EmpSidebarAccount = (selectedCategory, setSelectedCategory ) => {
           //make the page reload
           window.location.reload(false);
         }
-    
        
       }, [isSuccess, navigate, dispatch])
 
@@ -42,7 +41,6 @@ const EmpSidebarAccount = (selectedCategory, setSelectedCategory ) => {
                     //     alignItems: 'right',
                     // }}
                 >
-
                     <div className="empaccount__sidebar-img">
                         {/* <img src={images.avatar} alt="G_overlay" /> */}
                         <MdAccountCircle className="sidebar-icons" />

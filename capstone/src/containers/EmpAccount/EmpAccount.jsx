@@ -237,7 +237,6 @@ const EmpAccount = (props) => {
                             </div>
                         </div>
 
-
                         <div className="emp-account__action">
                             <button>
                                 Save

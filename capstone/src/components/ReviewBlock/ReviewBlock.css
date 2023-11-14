@@ -54,11 +54,6 @@
     color: var(--color-darkgreen);
 }
 
-
-
-
-
-
 .review__table {
     /* border: 2px solid forestgreen; */
     width: 70vw;
@@ -151,7 +146,6 @@
     display: flex;
     gap: 1.5rem;
 }
-
 
 .app__gallery {
     flex-direction: row;
@@ -329,5 +323,4 @@
     .review__detail {
         font-size: 1.2rem;
     }
-
 }
