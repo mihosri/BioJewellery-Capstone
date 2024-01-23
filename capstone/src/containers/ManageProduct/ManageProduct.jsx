@@ -5,8 +5,8 @@ import { FaSearch } from 'react-icons/fa';
 import './ManageProduct.css';
 import { Link } from 'react-router-dom';
 
-const ManageProduct = ({ value, onChange }) => {
-
+const ManageProduct = ({ value, onChange }) => 
+{
     const placeholder = <FaSearch />;
     
     return (

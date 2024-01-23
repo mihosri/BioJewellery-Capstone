@@ -30,7 +30,6 @@ const createOrder = asyncHandler(async (req, res) => {
 
   const client = await User.findById(userId)
   
-
   if (!Array.isArray(products) || products.length === 0) {
     res.status(400);
     throw new Error('At least one product is required');
@@ -56,7 +55,6 @@ const createOrder = asyncHandler(async (req, res) => {
 
   res.status(201).json(createdOrder);
 });
-
 
 // @desc    update an existing Order 
 // @route   PATCH /api/order/:orderId
@@ -129,6 +127,5 @@ module.exports = {
     createOrder,
     updateOrder,
     cancelOrder,
-    getOrder,
-    
+    getOrder    
 }

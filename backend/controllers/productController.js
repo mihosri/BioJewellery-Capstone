@@ -27,7 +27,6 @@ const getAllProducts = asyncHandler(async (req, res) => {
     }
 })
 
-
 const getProduct = asyncHandler(async (req, res) => {
 
     try {
@@ -47,7 +46,6 @@ const getProduct = asyncHandler(async (req, res) => {
     }
 
 })
-
 
 const setProduct = asyncHandler(async (req, res, next) => {
     try {   
@@ -88,7 +86,6 @@ const setProduct = asyncHandler(async (req, res, next) => {
         throw new Error(error);
     }
 })
-
 
 const updateProduct = asyncHandler(async (req, res) => {
     try 
@@ -187,7 +184,6 @@ const sortProducts = asyncHandler(async (req, res) => {
 
 })
 
-
 function sortByAsc(arr) {
     if (arr.length <= 1) {
         return arr;
@@ -214,7 +210,6 @@ function sortByAsc(arr) {
     }
 }
 
-
 function sortByDscd(arr) {
     if (arr.length <= 1) {
         return arr;
@@ -240,7 +235,6 @@ function mergeDsc(left, right) {
 
     return result.concat(left, right);
 }
-
 
 module.exports = {
     sortProducts,

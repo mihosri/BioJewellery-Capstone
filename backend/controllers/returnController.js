@@ -11,7 +11,6 @@ const Account = require('../models/accountModel')
 const User = require('../models/userModel')
 const sendMail = require('../helpers/sendEmail')
 
-
 // @desc    Forgot Password
 // @route   POST /api/returnrequest
 // @access  Public
@@ -43,8 +42,6 @@ const returnRequest = asyncHandler(async (req, res) => {
     res.status(500).json({msg: error.message})
   }
 })
-
-
 
 module.exports = {
     returnRequest

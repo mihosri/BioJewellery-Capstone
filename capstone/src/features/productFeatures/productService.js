@@ -45,7 +45,6 @@ const updateProduct= async(formData) => {
    
 }
 
-
 const productService =  {
     getAllProducts,
     getProducts,

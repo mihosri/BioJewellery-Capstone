@@ -13,7 +13,6 @@ import React from 'react'
 import { SubHeading } from '../../components';
 import './OrderConfirmation.css';
 
-
 const OrderConfirmation = () => {
   
   return (

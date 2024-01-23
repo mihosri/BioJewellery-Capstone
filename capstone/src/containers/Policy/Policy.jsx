@@ -11,7 +11,6 @@
 
 // Notes: The background image has been cropped to fit the styling. If any changes are needed, feel free to do the same thing
 
-
 import React from 'react';
 import { BsExclamationCircle } from 'react-icons/bs';
 import './Policy.css';
@@ -105,4 +104,3 @@ const Policy = () => (
 );
 
 export default Policy;
-

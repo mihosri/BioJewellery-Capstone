@@ -56,9 +56,7 @@ function SideBarAccount({ selectedCategory, setSelectedCategory }) {
             </Stack>
         </div>
     </div>
-    )
-
-    
+    )   
 }
 
 export default SideBarAccount;

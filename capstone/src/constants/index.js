@@ -6,6 +6,5 @@ import empAccountCategory from './empAccountCategory'
 import accountCategory from './accountCategory'
 import fetchFromAPI from './fetchFromAPI'
 
-
 // export { images, video, categories, fetchFromAPI };
 export { images, sortCategory, empAccountCategory, accountCategory, fetchFromAPI };
