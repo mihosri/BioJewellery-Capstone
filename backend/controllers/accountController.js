@@ -219,7 +219,6 @@ const getAccount = asyncHandler(async (req, res) => {
 }
 )
 
-
 // @desc    Update Account
 // @route   POST /api/update
 // @access  Public
@@ -249,13 +248,11 @@ const updateAccount = asyncHandler(async (req, res) => {
     throw new Error('Address not found')
   }
 
-
   //save name
   if (name) {
 
     user.name = req.body.name ?? account.user.name
   }
-
 
 if(street){
 

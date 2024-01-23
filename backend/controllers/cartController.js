@@ -73,7 +73,6 @@ const increaseItemQuantity = asyncHandler(async (req, res) => {
     res.status(200).json({ productName,newQuantity });
 })
 
-
 //func to decrease quantity (-), when it is 0, remove from cartItems
 // @desc    update existing item quantity by subtracting 1 in cart
 // @route   PUT /api/cart/:productId
@@ -103,7 +102,6 @@ const decreaseItemQuantity = asyncHandler(async (req, res) => {
     res.status(200).json({productName,newQuantity});
 
 })
-
 
 // @desc    delete an item in cart
 // @route   DELETE /api/cart/:cartId/products/:productId

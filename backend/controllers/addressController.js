@@ -44,8 +44,6 @@ const getAddress = asyncHandler(async (req, res) => {
 
 })
 
-
-
 // @desc    update a posted review 
 // @route   PUT /api/address/:userId
 // @access  Private

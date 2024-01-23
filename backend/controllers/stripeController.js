@@ -18,7 +18,6 @@ app.use(express.static('public'));
 //Initializing stripe client for our account using secret key
 const stripe = require('stripe')(process.env.STRIPE_PRIVATE_KEY);
 
-
 // @desc    create a checkout session for purchase
 // @route   POST /checkout
 // @access  Private
